@@ -10,7 +10,7 @@ jobs:
                 version: 19.03.13
             - run:
                 name: Install Dependencies
-                command: pip install -r requirements
+                command: pip install -r requirements.txt
             - run:
                 name: Run test file with pytest
                 command: pytest test_sparse_recommender.py
